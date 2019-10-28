@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca064367-4f9a-4953-bb4c-3dc71ba4bd4a" name="Default" comment="" />
+    <list default="true" id="ca064367-4f9a-4953-bb4c-3dc71ba4bd4a" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/thrash/View_Credits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/1920x1080/1intro/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS/Controller/Controller_Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS/Controller/Controller_Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS/View/View_Credits.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS/View/View_MainMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS/View/View_MainMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/Controller_Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Controller_Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/View_Credits.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/View_Intro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/View_Intro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/View_MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/View_MainMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/View_Settings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thrash/View_Settings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/View_Startup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/View_Startup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/View_Teamselect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thrash/View_Teamselect.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -11,101 +26,69 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="View_Credits.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/View/View_Credits.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="View_Game.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/View/View_Game.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="859">
-              <caret line="77" column="1" selection-start-line="77" selection-start-column="1" selection-end-line="77" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="View_Intro.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/View/View_Intro.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="View_MainMenu.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/View/View_MainMenu.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="859">
-              <caret line="104" column="1" selection-start-line="104" selection-start-column="1" selection-end-line="104" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="View_Settings.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/View/View_Settings.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="View_Startup.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/View/View_Startup.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="859">
-              <caret line="91" column="1" selection-start-line="91" selection-start-column="1" selection-end-line="91" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="View_Teamselect.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/View/View_Teamselect.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
-              <caret line="57" column="1" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Controller_Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Controller/Controller_Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MusicPlayer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Model/MusicPlayer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="View_MainMenu.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/View/View_MainMenu.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1683">
+                  <caret line="203" column="7" selection-start-line="203" selection-start-column="7" selection-end-line="203" selection-end-column="7" />
+                  <folding>
+                    <element signature="n#!!doc;n#controller#0;n#View_MainMenu#0" />
+                    <element signature="e#4020#4059#0" />
+                    <element signature="e#4575#4612#0" />
+                    <element signature="e#4672#4708#0" />
+                    <element signature="method#actionPerformed#0;class#View_MainMenu#0" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="View_Startup.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/View/View_Startup.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-280">
+                  <caret line="34" column="56" selection-start-line="34" selection-start-column="56" selection-end-line="34" selection-end-column="56" />
+                  <folding>
+                    <element signature="n#!!doc;n#controller#0;n#View_Startup#0" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Controller_Main.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/Controller/Controller_Main.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="170">
+                  <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+                  <folding>
+                    <element signature="e#297#298#0" expanded="true" />
+                    <element signature="e#333#334#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="View_Intro.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/View/View_Intro.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="527">
+                  <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+                  <folding>
+                    <element signature="n#!!doc;n#controller#0;n#View_Intro#0" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -114,19 +97,24 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Controller/Controller_Main.java" />
         <option value="$PROJECT_DIR$/src/Model/MusicPlayer.java" />
-        <option value="$PROJECT_DIR$/src/View/View_Credits.java" />
         <option value="$PROJECT_DIR$/src/View/View_Game.java" />
-        <option value="$PROJECT_DIR$/src/View/View_Intro.java" />
-        <option value="$PROJECT_DIR$/src/View/View_MainMenu.java" />
         <option value="$PROJECT_DIR$/src/View/View_Settings.java" />
-        <option value="$PROJECT_DIR$/src/View/View_Startup.java" />
         <option value="$PROJECT_DIR$/src/View/View_Teamselect.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/Controller/Controller_Main.java" />
+        <option value="$PROJECT_DIR$/src/View/View_Credits.java" />
+        <option value="$PROJECT_DIR$/src/View/View_Main.java" />
+        <option value="$PROJECT_DIR$/src/thrash/View_MainMenu.java" />
+        <option value="$PROJECT_DIR$/src/View/View_Startup.java" />
+        <option value="$PROJECT_DIR$/src/View/View_Intro.java" />
+        <option value="$PROJECT_DIR$/src/View/View_MainMenu.java" />
       </list>
     </option>
   </component>
@@ -140,19 +128,19 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-130" />
-    <option name="y" value="105" />
+    <option name="x" value="1042" />
+    <option name="y" value="103" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -175,17 +163,27 @@
               <item name="CS" type="b2602c69:ProjectViewProjectNode" />
               <item name="CS" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="View" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="E:/1_STUDIA/V semestr/Programowanie Aplikacji Biznesowych/projekt/KatalogCzesci" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -199,13 +197,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.View_MainMenu">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="CS" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
+    </configuration>
+    <configuration name="View_Intro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="View.View_Intro" />
+      <module name="CS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="View.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="View_MainMenu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="View.View_MainMenu" />
+      <module name="CS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="View.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -222,8 +240,15 @@
       <envs />
       <method />
     </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.View_Intro" />
+      <item itemvalue="Application.View_MainMenu" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.View_MainMenu" />
+        <item itemvalue="Application.View_Intro" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -239,43 +264,45 @@
       <option name="presentableId" value="Default" />
       <updated>1571758102082</updated>
       <workItem from="1571758104080" duration="383000" />
+      <workItem from="1571766853668" duration="3124000" />
+      <workItem from="1572292488111" duration="6221000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="383000" />
+    <option name="totallyTimeSpent" value="9728000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-130" y="105" width="1936" height="1056" extended-state="0" />
+    <frame x="1042" y="103" width="1936" height="1056" extended-state="0" />
     <layout>
-      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info id="Image Layers" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32943678" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info id="Capture Tool" />
-      <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.12646121" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10625" />
+      <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3995749" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,15 +311,45 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Model/MusicPlayer.java">
+    <entry file="file://$PROJECT_DIR$/src/View/View_MainMenu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+        <state relative-caret-position="459">
+          <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/View/View_Credits.java">
+    <entry file="file://$PROJECT_DIR$/src/thrash/View_Credits.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+          <folding>
+            <element signature="n#!!doc;n#controller#0;n#View_Credits#0" />
+            <element signature="method#View_Credits#0;class#View_Credits#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thrash/View_MainOUTDATED.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thrash/View_Credits.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
           <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
@@ -301,7 +358,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/View/View_Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="859">
+        <state relative-caret-position="1190">
           <caret line="77" column="1" selection-start-line="77" selection-start-column="1" selection-end-line="77" selection-end-column="1" />
         </state>
       </provider>
@@ -310,17 +367,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
           <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!doc;n#controller#0;n#View_Intro#0" />
+            <element signature="method#View_Intro#0;class#View_Intro#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/View/View_MainMenu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="859">
+        <state relative-caret-position="1615">
           <caret line="104" column="1" selection-start-line="104" selection-start-column="1" selection-end-line="104" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/View/View_Settings.java">
+    <entry file="file://$PROJECT_DIR$/src/thrash/View_Settings.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
           <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
@@ -329,12 +390,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/View/View_Startup.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="859">
+        <state relative-caret-position="1326">
           <caret line="91" column="1" selection-start-line="91" selection-start-column="1" selection-end-line="91" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!doc;n#controller#0;n#View_Startup#0" />
+            <element signature="method#View_Startup#0;class#View_Startup#0" />
+            <element signature="method#actionPerformed#0;class#View_Startup#0" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/View/View_Teamselect.java">
+    <entry file="file://$PROJECT_DIR$/src/thrash/View_Teamselect.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="850">
           <caret line="57" column="1" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
@@ -343,18 +409,115 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Controller/Controller_Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
+        <state relative-caret-position="221">
           <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#226#227#0" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/MusicPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/View/View_Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1190">
+          <caret line="77" column="1" selection-start-line="77" selection-start-column="1" selection-end-line="77" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+          <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/MusicPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thrash/View_Settings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thrash/View_Teamselect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thrash/View_Credits.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thrash/View_MainOUTDATED.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/View/View_Intro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!doc;n#controller#0;n#View_Intro#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/View/View_Startup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-280">
+          <caret line="34" column="56" selection-start-line="34" selection-start-column="56" selection-end-line="34" selection-end-column="56" />
+          <folding>
+            <element signature="n#!!doc;n#controller#0;n#View_Startup#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/Controller_Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+          <folding>
+            <element signature="e#297#298#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/View/View_MainMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1683">
+          <caret line="203" column="7" selection-start-line="203" selection-start-column="7" selection-end-line="203" selection-end-column="7" />
+          <folding>
+            <element signature="n#!!doc;n#controller#0;n#View_MainMenu#0" />
+            <element signature="e#4020#4059#0" />
+            <element signature="e#4575#4612#0" />
+            <element signature="e#4672#4708#0" />
+            <element signature="method#actionPerformed#0;class#View_MainMenu#0" />
+          </folding>
         </state>
       </provider>
     </entry>

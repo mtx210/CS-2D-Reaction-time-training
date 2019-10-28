@@ -2,12 +2,15 @@ package Controller;
 
 import Model.*;
 import View.*;
+import View.View_MainMenu;
 
 public class Controller_Main {
 
+    MusicPlayer musicPlayer = new MusicPlayer();
+
     public Controller_Main(){
         new View_Startup(this);
-        new MusicPlayer().playGameSound();
+        musicPlayer.playGameSound();
     }
 
     public void startIntro() {
@@ -19,6 +22,6 @@ public class Controller_Main {
     }
 
     public void terminate() {
-        //code to close program
+        //code to close the program
     }
 }

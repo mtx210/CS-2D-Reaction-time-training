@@ -1,4 +1,4 @@
-package View;
+package thrash;
 
 import javax.swing.JFrame;
 import javax.swing.JLabel;
@@ -7,18 +7,19 @@ import javax.swing.ImageIcon;
 import java.awt.Image;
 import java.awt.Toolkit;
 
-public class View_Settings extends JFrame {
+public class View_Teamselect extends JFrame {
 
     JLabel lBackground;
-    JButton bExit;
-    ImageIcon iBackground,iExit;
+    JButton bCT,bT,bExit;
+    ImageIcon iBackground,iCT,iT,iExit;
     Image icon;
 
-    public View_Settings() {
+    public View_Teamselect() {
 
-        //Najpierw wpierdzielamy ikonki przed wszystkim innym
-        iBackground = new ImageIcon("data/1920x1080/3settings/background.jpg");
-        iExit = new ImageIcon("data/1920x1080/buttons/iBack.png");
+        iBackground = new ImageIcon("data/1920x1080/5teamselect/background.jpg");
+        iCT = new ImageIcon("data/1920x1080/5teamselect/backgroundCT.jpg");
+        iT = new ImageIcon("data/1920x1080/5teamselect/backgroundT.jpg");
+        iExit = new ImageIcon("data/1920x1080/buttons/iExit.png");
 
         this.setSize(1920,1080);
         this.setTitle("Cont Striek: ISIS Conflict");
@@ -29,8 +30,18 @@ public class View_Settings extends JFrame {
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setExtendedState(JFrame.MAXIMIZED_BOTH);
 
+        bCT = new JButton(iCT);
+        bCT.setBounds(150,300,800,400);
+        //bCT.setBorderPainted(false);
+        add(bCT);
+
+        bT = new JButton(iT);
+        bT.setBounds(970,300,800,400);
+        //bT.setBorderPainted(false);
+        add(bT);
+
         bExit = new JButton(iExit);
-        bExit.setBounds(1620, 1000, 200, 50);
+        bExit.setBounds(860, 1000, 200, 50);
         bExit.setOpaque(false);
         bExit.setContentAreaFilled(false);
         //bExit.setBorderPainted(false);
@@ -42,6 +53,6 @@ public class View_Settings extends JFrame {
     }
 
     public static void main(String[] args) {
-        View_Settings xd = new View_Settings();
+        View_Teamselect xd = new View_Teamselect();
     }
 }

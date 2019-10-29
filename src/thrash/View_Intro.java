@@ -34,9 +34,9 @@ public class View_Intro extends JFrame {
 
             this.setVisible(true);
 
-        try {
+        /*try {
             Thread.sleep(2000);} catch (InterruptedException e){}
         this.dispose();
         controller.startMainMenu();
-    }
+    */}
 }

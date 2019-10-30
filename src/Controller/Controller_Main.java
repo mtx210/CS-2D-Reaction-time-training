@@ -2,7 +2,6 @@ package Controller;
 
 import Model.*;
 import View.*;
-import View.View_MainMenu;
 
 public class Controller_Main {
 
@@ -11,10 +10,6 @@ public class Controller_Main {
     public Controller_Main(){
         new View_Startup(this);
         musicPlayer.playGameSound();
-    }
-
-    public void startIntro() {
-        new View_Intro(this);
     }
 
     public void startMainMenu() {

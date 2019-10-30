@@ -1,4 +1,4 @@
-package View;
+package thrash;
 
 import Controller.*;
 

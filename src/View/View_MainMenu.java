@@ -13,155 +13,171 @@ public class View_MainMenu extends JFrame implements ActionListener {
 
     //<editor-fold desc="Class fields">
     //frame fields
-        private Controller_Main controller;
+    private Controller_Main controller;
+    private JPanel MainPanel;
+    private CardLayout CardLayout;
 
-        private JPanel MainPanel;
-        private CardLayout CardLayout;
+    //intro panel
+    private JPanel pIntro;
+    private JLabel lIntroBackground;
+    private ImageIcon iIntroBackground;
+
     //menu panel
-        private JPanel pMenu;
+    private JPanel pMenu;
+    private JLabel lMenuBackground;
+    private JButton bMenuSingleplayer,bMenuMultiplayer,bMenuSettings,bMenuCredits,bMenuExit;
+    private ImageIcon iMenuBackground,iMenuSingleplayer,iMenuMultiplayer,iMenuSettings,iMenuCredits,iMenuExit;
 
-        private JLabel lMenuBackground;
-        private JButton bMenuSingleplayer,bMenuMultiplayer,bMenuSettings,bMenuCredits,bMenuExit;
-        private ImageIcon iMenuBackground,iMenuSingleplayer,iMenuMultiplayer,iMenuSettings,iMenuCredits,iMenuExit;
     //team selection panel
-        private JPanel pTeamSelect;
+    private JPanel pTeamSelect;
+    private JLabel lTeamselectBackground;
+    private JButton bTeamselectCT,bTeamselectT,bTeamselectExit;
+    private ImageIcon iTeamselectBackground,iTeamselectCT,iTeamselectT,iTeamselectExit;
 
-        private JLabel lTeamselectBackground;
-        private JButton bTeamselectCT,bTeamselectT,bTeamselectExit;
-        private ImageIcon iTeamselectBackground,iTeamselectCT,iTeamselectT,iTeamselectExit;
     //settings panel
-        private JPanel pSettings;
+    private JPanel pSettings;
+    private JLabel lSettingsBackground;
+    private JButton bSettingsExit;
+    private ImageIcon iSettingsBackground,iSettingsExit;
 
-        private JLabel lSettingsBackground;
-        private JButton bSettingsExit;
-        private ImageIcon iSettingsBackground,iSettingsExit;
     //credits panel
-        private JPanel pCredits;
-
-        private JLabel lCreditsBackground;
-        private JButton bCreditsExit;
-        private ImageIcon iCreditsBackground,iCreditsExit;
+    private JPanel pCredits;
+    private JLabel lCreditsBackground;
+    private JButton bCreditsExit;
+    private ImageIcon iCreditsBackground,iCreditsExit;
     //</editor-fold>
 
     public View_MainMenu(Controller_Main controller) {
 
         //controller setup
-            this.controller = controller;
+        this.controller = controller;
+
         //frame setup
-            this.setSize(1920,1080);
-            this.setTitle("Cont Striek: ISIS Conflict");
-            this.setIconImage(Toolkit.getDefaultToolkit().getImage("data\\icon.jpg"));
-            this.setLayout(null);
-            this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        this.setSize(1920,1080);
+        this.setTitle("Cont Striek: ISIS Conflict");
+        this.setIconImage(Toolkit.getDefaultToolkit().getImage("data/icon.jpg"));
+        this.setLayout(null);
+        this.setDefaultCloseOperation(DISPOSE_ON_CLOSE);
+
         //components setup
-            //<editor-fold desc="menu panel">
-                pMenu = new JPanel();
-                pMenu.setLayout(null);
+        //<editor-fold desc="intro panel">
+        pIntro = new JPanel();
+        pIntro.setLayout(null);
 
-                iMenuBackground = new ImageIcon("data/res/background.jpg");
-                iMenuSingleplayer = new ImageIcon("data/1920x1080/buttons/iSingleplayer.png");
-                iMenuMultiplayer = new ImageIcon("data/1920x1080/buttons/iMultiplayer.png");
-                iMenuSettings = new ImageIcon("data/1920x1080/buttons/iSettings.png");
-                iMenuCredits = new ImageIcon("data/1920x1080/buttons/iCredits.png");
-                iMenuExit = new ImageIcon("data/1920x1080/buttons/iExit.png");
+        iIntroBackground = new ImageIcon("data/images/1920x1080/1intro/backgroundd.jpg");
+        lIntroBackground = new JLabel(iIntroBackground);
+        lIntroBackground.setBounds(0,0,1920,1080);
+        pIntro.add(lIntroBackground);
+        //</editor-fold>
 
-                bMenuSingleplayer = new JButton(iMenuSingleplayer);
-                bMenuSingleplayer.setBounds(1620, 600, 200, 50);
-                bMenuSingleplayer.setOpaque(false);
-                bMenuSingleplayer.setContentAreaFilled(false);
-                bMenuSingleplayer.addActionListener(this);
-                pMenu.add(bMenuSingleplayer);
+        //<editor-fold desc="menu panel">
+        pMenu = new JPanel();
+        pMenu.setLayout(null);
 
-                bMenuMultiplayer = new JButton(iMenuMultiplayer);
-                bMenuMultiplayer.setBounds(1620, 700, 200, 50);
-                bMenuMultiplayer.setOpaque(false);
-                bMenuMultiplayer.setContentAreaFilled(false);
-                bMenuMultiplayer.addActionListener(this);
-                pMenu.add(bMenuMultiplayer);
+        iMenuBackground = new ImageIcon("data/res/background.jpg");
+        iMenuSingleplayer = new ImageIcon("data/1920x1080/buttons/iSingleplayer.png");
+        iMenuMultiplayer = new ImageIcon("data/1920x1080/buttons/iMultiplayer.png");
+        iMenuSettings = new ImageIcon("data/1920x1080/buttons/iSettings.png");
+        iMenuCredits = new ImageIcon("data/1920x1080/buttons/iCredits.png");
+        iMenuExit = new ImageIcon("data/1920x1080/buttons/iExit.png");
 
-                bMenuSettings = new JButton(iMenuSettings);
-                bMenuSettings.setBounds(1620, 800, 200, 50);
-                bMenuSettings.setOpaque(false);
-                bMenuSettings.setContentAreaFilled(false);
-                bMenuSettings.addActionListener(this);
-                pMenu.add(bMenuSettings);
+        bMenuSingleplayer = new JButton(iMenuSingleplayer);
+        bMenuSingleplayer.setBounds(1620, 600, 200, 50);
+        bMenuSingleplayer.setOpaque(false);
+        bMenuSingleplayer.setContentAreaFilled(false);
+        bMenuSingleplayer.addActionListener(this);
+        pMenu.add(bMenuSingleplayer);
 
-                bMenuCredits = new JButton(iMenuCredits);
-                bMenuCredits.setBounds(1620, 900, 200, 50);
-                bMenuCredits.setOpaque(false);
-                bMenuCredits.setContentAreaFilled(false);
-                bMenuCredits.addActionListener(this);
-                pMenu.add(bMenuCredits);
+        bMenuMultiplayer = new JButton(iMenuMultiplayer);
+        bMenuMultiplayer.setBounds(1620, 700, 200, 50);
+        bMenuMultiplayer.setOpaque(false);
+        bMenuMultiplayer.setContentAreaFilled(false);
+        bMenuMultiplayer.addActionListener(this);
+        pMenu.add(bMenuMultiplayer);
 
-                bMenuExit = new JButton(iMenuExit);
-                bMenuExit.setBounds(1620, 1000, 200, 50);
-                bMenuExit.setOpaque(false);
-                bMenuExit.setContentAreaFilled(false);
-                bMenuExit.addActionListener(this);
-                pMenu.add(bMenuExit);
+        bMenuSettings = new JButton(iMenuSettings);
+        bMenuSettings.setBounds(1620, 800, 200, 50);
+        bMenuSettings.setOpaque(false);
+        bMenuSettings.setContentAreaFilled(false);
+        bMenuSettings.addActionListener(this);
+        pMenu.add(bMenuSettings);
 
-                lMenuBackground = new JLabel(iMenuBackground);
-                lMenuBackground.setBounds(0,0,1920,1080);
-                pMenu.add(lMenuBackground);
-            //</editor-fold>
+        bMenuCredits = new JButton(iMenuCredits);
+        bMenuCredits.setBounds(1620, 900, 200, 50);
+        bMenuCredits.setOpaque(false);
+        bMenuCredits.setContentAreaFilled(false);
+        bMenuCredits.addActionListener(this);
+        pMenu.add(bMenuCredits);
 
-            //<editor-fold desc="teamselect panel">
-                pTeamSelect = new JPanel();
-                pTeamSelect.setLayout(null);
-            //</editor-fold>
+        bMenuExit = new JButton(iMenuExit);
+        bMenuExit.setBounds(1620, 1000, 200, 50);
+        bMenuExit.setOpaque(false);
+        bMenuExit.setContentAreaFilled(false);
+        bMenuExit.addActionListener(this);
+        pMenu.add(bMenuExit);
 
-            //<editor-fold desc="settings panel">
-                pSettings = new JPanel();
-                pSettings.setLayout(null);
+        lMenuBackground = new JLabel(iMenuBackground);
+        lMenuBackground.setBounds(0,0,1920,1080);
+        pMenu.add(lMenuBackground);
+        //</editor-fold>
 
-                iSettingsBackground = new ImageIcon("data/1920x1080/3settings/background.jpg");
-                iSettingsExit = new ImageIcon("data/1920x1080/buttons/iBack.png");
+        //<editor-fold desc="teamselect panel">
+        pTeamSelect = new JPanel();
+        pTeamSelect.setLayout(null);
+        //</editor-fold>
 
-                bSettingsExit = new JButton(iSettingsExit);
-                bSettingsExit.setBounds(1620, 1000, 200, 50);
-                bSettingsExit.setOpaque(false);
-                bSettingsExit.setContentAreaFilled(false);
-                bSettingsExit.addActionListener(this);
-                pSettings.add(bSettingsExit);
+        //<editor-fold desc="settings panel">
+        pSettings = new JPanel();
+        pSettings.setLayout(null);
 
-                lSettingsBackground = new JLabel(iSettingsBackground);
-                lSettingsBackground.setBounds(0,0,1920,1080);
-                pSettings.add(lSettingsBackground);
-            //</editor-fold>
+        iSettingsBackground = new ImageIcon("data/1920x1080/3settings/background.jpg");
+        iSettingsExit = new ImageIcon("data/1920x1080/buttons/iBack.png");
 
-            //<editor-fold desc="credits panel">
-                pCredits = new JPanel();
-                pCredits.setLayout(null);
+        bSettingsExit = new JButton(iSettingsExit);
+        bSettingsExit.setBounds(1620, 1000, 200, 50);
+        bSettingsExit.setOpaque(false);
+        bSettingsExit.setContentAreaFilled(false);
+        bSettingsExit.addActionListener(this);
+        pSettings.add(bSettingsExit);
 
-                iCreditsBackground = new ImageIcon("data/1920x1080/4credits/background.jpg");
-                iCreditsExit = new ImageIcon("data/1920x1080/buttons/iBack.png");
+        lSettingsBackground = new JLabel(iSettingsBackground);
+        lSettingsBackground.setBounds(0,0,1920,1080);
+        pSettings.add(lSettingsBackground);
+        //</editor-fold>
 
-                bCreditsExit = new JButton(iCreditsExit);
-                bCreditsExit.setBounds(1620, 1000, 200, 50);
-                bCreditsExit.setOpaque(false);
-                bCreditsExit.setContentAreaFilled(false);
-                bCreditsExit.addActionListener(this);
-                pCredits.add(bCreditsExit);
+        //<editor-fold desc="credits panel">
+        pCredits = new JPanel();
+        pCredits.setLayout(null);
 
-                lCreditsBackground = new JLabel(iCreditsBackground);
-                lCreditsBackground.setBounds(0,0,1920,1080);
-                pCredits.add(lCreditsBackground);
-            //</editor-fold>
+        iCreditsBackground = new ImageIcon("data/1920x1080/4credits/background.jpg");
+        iCreditsExit = new ImageIcon("data/1920x1080/buttons/iBack.png");
+
+        bCreditsExit = new JButton(iCreditsExit);
+        bCreditsExit.setBounds(1620, 1000, 200, 50);
+        bCreditsExit.setOpaque(false);
+        bCreditsExit.setContentAreaFilled(false);
+        bCreditsExit.addActionListener(this);
+        pCredits.add(bCreditsExit);
+
+        lCreditsBackground = new JLabel(iCreditsBackground);
+        lCreditsBackground.setBounds(0,0,1920,1080);
+        pCredits.add(lCreditsBackground);
+        //</editor-fold>
 
         //setting CardLayout
-            MainPanel = new JPanel();
-            CardLayout = new CardLayout();
-            MainPanel.setLayout(CardLayout);
-            MainPanel.add(pMenu,"menu");
-            MainPanel.add(pTeamSelect,"teamselect");
-            MainPanel.add(pSettings,"settings");
-            MainPanel.add(pCredits,"credits");
-            CardLayout.show(MainPanel,"menu");
+        MainPanel = new JPanel();
+        CardLayout = new CardLayout();
+        MainPanel.setLayout(CardLayout);
+        MainPanel.add(pIntro,"intro");
+        MainPanel.add(pMenu,"menu");
+        MainPanel.add(pTeamSelect,"teamselect");
+        MainPanel.add(pSettings,"settings");
+        MainPanel.add(pCredits,"credits");
+        CardLayout.show(MainPanel,"intro");
+        this.add(MainPanel);
 
-        //finishing
-            this.add(MainPanel);
-            this.setVisible(true);
-            //.requestFocus();
+        this.setVisible(true);
+        //.requestFocus();
     }
 
     @Override
@@ -198,8 +214,4 @@ public class View_MainMenu extends JFrame implements ActionListener {
                 CardLayout.show(MainPanel,"menu");
             }
     }
-
-    /*public static void main(String[] args){
-        new View_MainMenu(new Controller_Main());
-    }*/
 }

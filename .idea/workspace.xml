@@ -2,20 +2,140 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca064367-4f9a-4953-bb4c-3dc71ba4bd4a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/thrash/View_Credits.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/1920x1080/1intro/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/1280x720/1intro/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/1280x720/2mainmenu/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/1280x720/3settings/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/1280x720/4credits/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/1280x720/5teamselect/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/1280x720/5teamselect/backgroundCT.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/1280x720/5teamselect/backgroundT.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/1280x720/buttons/iBack.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/1280x720/buttons/iCredits.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/1280x720/buttons/iExit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/1280x720/buttons/iMultiplayer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/1280x720/buttons/iSettings.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/1280x720/buttons/iSingleplayer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/1280x720/buttons/iStart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/1366x768/1intro/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/1366x768/2mainmenu/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/1366x768/3settings/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/1366x768/4credits/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/1366x768/5teamselect/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/1366x768/5teamselect/backgroundCT.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/1366x768/5teamselect/backgroundT.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/1366x768/buttons/iBack.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/1366x768/buttons/iCredits.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/1366x768/buttons/iExit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/1366x768/buttons/iMultiplayer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/1366x768/buttons/iSettings.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/1366x768/buttons/iSingleplayer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/1366x768/buttons/iStart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/1600x900/1intro/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/1600x900/2mainmenu/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/1600x900/3settings/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/1600x900/4credits/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/1600x900/5teamselect/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/1600x900/5teamselect/backgroundCT.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/1600x900/5teamselect/backgroundT.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/1600x900/buttons/iBack.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/1600x900/buttons/iCredits.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/1600x900/buttons/iExit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/1600x900/buttons/iMultiplayer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/1600x900/buttons/iSettings.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/1600x900/buttons/iSingleplayer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/1600x900/buttons/iStart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/1920x1080/1intro/backgroundd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/1920x1080/2mainmenu/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/1920x1080/3settings/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/1920x1080/4credits/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/1920x1080/5teamselect/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/1920x1080/5teamselect/backgroundCT.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/1920x1080/5teamselect/backgroundT.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/1920x1080/6game/attack.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/1920x1080/6game/change.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/1920x1080/6game/exit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/1920x1080/6game/gameprocess_akm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/1920x1080/6game/gameprocess_backgroundDefault.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/1920x1080/6game/gameprocess_bayonet.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/1920x1080/6game/gameprocess_glock.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/1920x1080/6game/gameprocess_m4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/1920x1080/6game/gameprocess_machete.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/1920x1080/6game/gameprocess_usp.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/1920x1080/6game/inspect.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/1920x1080/6game/reload.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/1920x1080/buttons/iBack.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/1920x1080/buttons/iCredits.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/1920x1080/buttons/iExit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/1920x1080/buttons/iMultiplayer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/1920x1080/buttons/iSettings.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/1920x1080/buttons/iSingleplayer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/1920x1080/buttons/iStart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Images/1intro/backgroundd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Images/2mainmenu/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Images/3settings/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Images/4credits/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Images/5teamselect/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Images/5teamselect/backgroundCT.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Images/5teamselect/backgroundT.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Images/6game/attack.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Images/6game/change.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Images/6game/exit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Images/6game/gameprocess_akm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Images/6game/gameprocess_backgroundDefault.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Images/6game/gameprocess_bayonet.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Images/6game/gameprocess_glock.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Images/6game/gameprocess_m4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Images/6game/gameprocess_machete.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Images/6game/gameprocess_usp.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Images/6game/inspect.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Images/6game/reload.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Images/buttons/iBack.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Images/buttons/iCredits.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Images/buttons/iExit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Images/buttons/iMultiplayer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Images/buttons/iSettings.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Images/buttons/iSingleplayer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Images/buttons/iStart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Images/credits_background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Images/credits_iconExit.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Images/gameprocess_akm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Images/gameprocess_backgroundDefault.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Images/gameprocess_bayonet.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Images/gameprocess_glock.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Images/gameprocess_iconChange.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Images/gameprocess_iconExit.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Images/gameprocess_iconInspect.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Images/gameprocess_iconReload.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Images/gameprocess_iconUse.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Images/gameprocess_m4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Images/gameprocess_machete.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Images/gameprocess_usp.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Images/iconSingleplayer.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Images/into.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Images/intro_background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Images/intro_background2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Images/main_background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Images/main_iconCredits.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Images/main_iconExit.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Images/teamselect_background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Images/teamselect_backgroundCT.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Images/teamselect_backgroundT.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Images/teamselect_iconExit.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Images/xxxxxxxxxxxxxxxxxx.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/res/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/res/backgroundd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/res/iExit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/res/iStart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/res/resolution_background.xcf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CS/Controller/Controller_Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS/Controller/Controller_Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CS/View/View_Credits.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS/View/View_Intro.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CS/View/View_MainMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS/View/View_MainMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS/View/View_Startup.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS/View/View_Startup.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/Controller_Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Controller_Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View/View_Credits.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View/View_Intro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/View_Intro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/View/View_MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/View_MainMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View/View_Settings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thrash/View_Settings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/View/View_Startup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/View_Startup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View/View_Teamselect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thrash/View_Teamselect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thrash/View_Intro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thrash/View_Intro.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,70 +145,63 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/CS$Main.ic" NAME="Main Coverage Results" MODIFIED="1572355258684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="View_MainMenu.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/View/View_MainMenu.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1683">
-                  <caret line="203" column="7" selection-start-line="203" selection-start-column="7" selection-end-line="203" selection-end-column="7" />
-                  <folding>
-                    <element signature="n#!!doc;n#controller#0;n#View_MainMenu#0" />
-                    <element signature="e#4020#4059#0" />
-                    <element signature="e#4575#4612#0" />
-                    <element signature="e#4672#4708#0" />
-                    <element signature="method#actionPerformed#0;class#View_MainMenu#0" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="View_Startup.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/View/View_Startup.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-280">
-                  <caret line="34" column="56" selection-start-line="34" selection-start-column="56" selection-end-line="34" selection-end-column="56" />
-                  <folding>
-                    <element signature="n#!!doc;n#controller#0;n#View_Startup#0" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Controller_Main.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/Controller/Controller_Main.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="170">
-                  <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
-                  <folding>
-                    <element signature="e#297#298#0" expanded="true" />
-                    <element signature="e#333#334#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="View_Intro.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/View/View_Intro.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="527">
-                  <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-                  <folding>
-                    <element signature="n#!!doc;n#controller#0;n#View_Intro#0" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="View_MainMenu.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/View/View_MainMenu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1683">
+              <caret line="175" column="40" selection-start-line="175" selection-start-column="40" selection-end-line="175" selection-end-column="40" />
+              <folding>
+                <element signature="n#!!doc;n#controller#0;n#View_MainMenu#0" />
+                <element signature="e#4960#4999#0" />
+                <element signature="e#5131#5168#0" />
+                <element signature="e#5993#6029#0" />
+                <element signature="method#actionPerformed#0;class#View_MainMenu#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Controller_Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Controller/Controller_Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#326#327#0" expanded="true" />
+                <element signature="e#365#366#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="View_Startup.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/View/View_Startup.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="64" column="51" lean-forward="true" selection-start-line="64" selection-start-column="51" selection-end-line="64" selection-end-column="51" />
+              <folding>
+                <element signature="n#!!doc;n#controller#0;n#View_Startup#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -107,13 +220,14 @@
         <option value="$PROJECT_DIR$/src/View/View_Game.java" />
         <option value="$PROJECT_DIR$/src/View/View_Settings.java" />
         <option value="$PROJECT_DIR$/src/View/View_Teamselect.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/Controller/Controller_Main.java" />
         <option value="$PROJECT_DIR$/src/View/View_Credits.java" />
         <option value="$PROJECT_DIR$/src/View/View_Main.java" />
         <option value="$PROJECT_DIR$/src/thrash/View_MainMenu.java" />
-        <option value="$PROJECT_DIR$/src/View/View_Startup.java" />
         <option value="$PROJECT_DIR$/src/View/View_Intro.java" />
+        <option value="$PROJECT_DIR$/src/thrash/View_Intro.java" />
+        <option value="$PROJECT_DIR$/src/Controller/Controller_Main.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/View/View_Startup.java" />
         <option value="$PROJECT_DIR$/src/View/View_MainMenu.java" />
       </list>
     </option>
@@ -127,9 +241,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1042" />
-    <option name="y" value="103" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1928" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -141,12 +255,39 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="CS" type="b2602c69:ProjectViewProjectNode" />
               <item name="CS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CS" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CS" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CS" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="1920x1080" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CS" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="1920x1080" type="462c0819:PsiDirectoryNode" />
+              <item name="1intro" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CS" type="b2602c69:ProjectViewProjectNode" />
@@ -177,13 +318,12 @@
       </pane>
       <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="E:/1_STUDIA/V semestr/Programowanie Aplikacji Biznesowych/projekt/KatalogCzesci" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -197,7 +337,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.View_MainMenu">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="CS" />
@@ -206,11 +346,11 @@
       <ConfigurationWrapper RunnerId="Run" />
     </configuration>
     <configuration name="View_Intro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="View.View_Intro" />
+      <option name="MAIN_CLASS_NAME" value="thrash.View_Intro" />
       <module name="CS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="View.*" />
+          <option name="PATTERN" value="thrash.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -220,7 +360,7 @@
       <module name="CS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="View.*" />
+          <option name="PATTERN" value="thrash.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -247,9 +387,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.View_MainMenu" />
         <item itemvalue="Application.View_Intro" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -265,15 +405,20 @@
       <updated>1571758102082</updated>
       <workItem from="1571758104080" duration="383000" />
       <workItem from="1571766853668" duration="3124000" />
-      <workItem from="1572292488111" duration="6221000" />
+      <workItem from="1572292488111" duration="6806000" />
+      <workItem from="1572353904047" duration="4530000" />
+      <workItem from="1572382357959" duration="107000" />
+      <workItem from="1572468690644" duration="655000" />
+      <workItem from="1572469697472" duration="1749000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9728000" />
+    <option name="totallyTimeSpent" value="17354000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1042" y="103" width="1936" height="1056" extended-state="0" />
+    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -284,12 +429,12 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.12646121" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.11902232" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10625" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13385417" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -298,6 +443,7 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3995749" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.3296875" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -313,10 +459,111 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="8" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/View/View_Startup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="16" column="68" selection-start-line="16" selection-start-column="68" selection-end-line="16" selection-end-column="68" />
+          <folding>
+            <element signature="n#!!doc;n#controller#0;n#View_Startup#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/View/View_MainMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2193">
+          <caret line="169" column="30" selection-start-line="169" selection-start-column="30" selection-end-line="169" selection-end-column="30" />
+          <folding>
+            <element signature="n#!!doc;n#controller#0;n#View_MainMenu#0" />
+            <element signature="method#actionPerformed#0;class#View_MainMenu#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/View/View_Startup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="68" selection-start-line="16" selection-start-column="68" selection-end-line="16" selection-end-column="68" />
+          <folding>
+            <element signature="n#!!doc;n#controller#0;n#View_Startup#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/View/View_MainMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2193">
+          <caret line="169" column="30" selection-start-line="169" selection-start-column="30" selection-end-line="169" selection-end-column="30" />
+          <folding>
+            <element signature="n#!!doc;n#controller#0;n#View_MainMenu#0" />
+            <element signature="method#actionPerformed#0;class#View_MainMenu#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/View/View_Startup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="16" column="68" selection-start-line="16" selection-start-column="68" selection-end-line="16" selection-end-column="68" />
+          <folding>
+            <element signature="n#!!doc;n#controller#0;n#View_Startup#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/View/View_MainMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2193">
+          <caret line="169" column="30" lean-forward="true" selection-start-line="169" selection-start-column="30" selection-end-line="169" selection-end-column="30" />
+          <folding>
+            <element signature="n#!!doc;n#controller#0;n#View_MainMenu#0" />
+            <element signature="method#actionPerformed#0;class#View_MainMenu#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/View/View_MainMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2312">
+          <caret line="203" column="7" selection-start-line="203" selection-start-column="7" selection-end-line="203" selection-end-column="7" />
+          <folding>
+            <element signature="n#!!doc;n#controller#0;n#View_MainMenu#0" />
+            <element signature="method#actionPerformed#0;class#View_MainMenu#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/View/View_Startup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="34" column="56" selection-start-line="34" selection-start-column="56" selection-end-line="34" selection-end-column="56" />
+          <folding>
+            <element signature="n#!!doc;n#controller#0;n#View_Startup#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/Controller_Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+          <folding>
+            <element signature="e#394#395#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thrash/View_Intro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/View/View_MainMenu.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -328,10 +575,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
-          <folding>
-            <element signature="n#!!doc;n#controller#0;n#View_Credits#0" />
-            <element signature="method#View_Credits#0;class#View_Credits#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -363,14 +606,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/View/View_Intro.java">
+    <entry file="file://$PROJECT_DIR$/src/thrash/View_Intro.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
           <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!doc;n#controller#0;n#View_Intro#0" />
-            <element signature="method#View_Intro#0;class#View_Intro#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -394,8 +633,6 @@
           <caret line="91" column="1" selection-start-line="91" selection-start-column="1" selection-end-line="91" selection-end-column="1" />
           <folding>
             <element signature="n#!!doc;n#controller#0;n#View_Startup#0" />
-            <element signature="method#View_Startup#0;class#View_Startup#0" />
-            <element signature="method#actionPerformed#0;class#View_Startup#0" />
           </folding>
         </state>
       </provider>
@@ -412,10 +649,7 @@
         <state relative-caret-position="221">
           <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
           <folding>
-            <element signature="e#226#227#0" expanded="true" />
-            <element signature="e#262#263#0" expanded="true" />
-            <element signature="e#297#298#0" expanded="true" />
-            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -431,20 +665,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1190">
           <caret line="77" column="1" selection-start-line="77" selection-start-column="1" selection-end-line="77" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/MusicPlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -476,47 +696,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/View/View_Intro.java">
+    <entry file="file://$PROJECT_DIR$/src/thrash/View_Intro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/MusicPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
-          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/images/1920x1080/1intro/backgroundd.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/View/View_MainMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1683">
+          <caret line="175" column="40" selection-start-line="175" selection-start-column="40" selection-end-line="175" selection-end-column="40" />
           <folding>
-            <element signature="n#!!doc;n#controller#0;n#View_Intro#0" />
+            <element signature="n#!!doc;n#controller#0;n#View_MainMenu#0" />
+            <element signature="e#4960#4999#0" />
+            <element signature="e#5131#5168#0" />
+            <element signature="e#5993#6029#0" />
+            <element signature="method#actionPerformed#0;class#View_MainMenu#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/Controller_Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#326#327#0" expanded="true" />
+            <element signature="e#365#366#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/View/View_Startup.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-280">
-          <caret line="34" column="56" selection-start-line="34" selection-start-column="56" selection-end-line="34" selection-end-column="56" />
+        <state relative-caret-position="220">
+          <caret line="64" column="51" lean-forward="true" selection-start-line="64" selection-start-column="51" selection-end-line="64" selection-end-column="51" />
           <folding>
             <element signature="n#!!doc;n#controller#0;n#View_Startup#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/Controller_Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
-          <folding>
-            <element signature="e#297#298#0" expanded="true" />
-            <element signature="e#333#334#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/View/View_MainMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1683">
-          <caret line="203" column="7" selection-start-line="203" selection-start-column="7" selection-end-line="203" selection-end-column="7" />
-          <folding>
-            <element signature="n#!!doc;n#controller#0;n#View_MainMenu#0" />
-            <element signature="e#4020#4059#0" />
-            <element signature="e#4575#4612#0" />
-            <element signature="e#4672#4708#0" />
-            <element signature="method#actionPerformed#0;class#View_MainMenu#0" />
           </folding>
         </state>
       </provider>

@@ -3,11 +3,11 @@ package Controller;
 import Model.*;
 import View.*;
 
-public class Controller_Main {
+public class Controller {
 
     MusicPlayer musicPlayer = new MusicPlayer();
 
-    public Controller_Main(){
+    public Controller(){
         new View_Startup(this);
         musicPlayer.playGameSound();
     }

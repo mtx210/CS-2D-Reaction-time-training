@@ -9,7 +9,7 @@ import java.awt.event.ActionListener;
 
 public class View_MainOUTDATED extends JFrame implements ActionListener {
 
-    public View_MainOUTDATED(Controller_Main controller){
+    public View_MainOUTDATED(Controller controller){
         JPanel mainPanel;
         CardLayout layout;
 

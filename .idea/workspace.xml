@@ -3,139 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="ca064367-4f9a-4953-bb4c-3dc71ba4bd4a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/1280x720/1intro/background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/1280x720/2mainmenu/background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/1280x720/3settings/background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/1280x720/4credits/background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/1280x720/5teamselect/background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/1280x720/5teamselect/backgroundCT.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/1280x720/5teamselect/backgroundT.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/1280x720/buttons/iBack.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/1280x720/buttons/iCredits.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/1280x720/buttons/iExit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/1280x720/buttons/iMultiplayer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/1280x720/buttons/iSettings.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/1280x720/buttons/iSingleplayer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/1280x720/buttons/iStart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/1366x768/1intro/background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/1366x768/2mainmenu/background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/1366x768/3settings/background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/1366x768/4credits/background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/1366x768/5teamselect/background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/1366x768/5teamselect/backgroundCT.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/1366x768/5teamselect/backgroundT.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/1366x768/buttons/iBack.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/1366x768/buttons/iCredits.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/1366x768/buttons/iExit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/1366x768/buttons/iMultiplayer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/1366x768/buttons/iSettings.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/1366x768/buttons/iSingleplayer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/1366x768/buttons/iStart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/1600x900/1intro/background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/1600x900/2mainmenu/background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/1600x900/3settings/background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/1600x900/4credits/background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/1600x900/5teamselect/background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/1600x900/5teamselect/backgroundCT.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/1600x900/5teamselect/backgroundT.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/1600x900/buttons/iBack.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/1600x900/buttons/iCredits.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/1600x900/buttons/iExit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/1600x900/buttons/iMultiplayer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/1600x900/buttons/iSettings.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/1600x900/buttons/iSingleplayer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/1600x900/buttons/iStart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/1920x1080/1intro/backgroundd.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/1920x1080/2mainmenu/background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/1920x1080/3settings/background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/1920x1080/4credits/background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/1920x1080/5teamselect/background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/1920x1080/5teamselect/backgroundCT.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/1920x1080/5teamselect/backgroundT.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/1920x1080/6game/attack.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/1920x1080/6game/change.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/1920x1080/6game/exit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/1920x1080/6game/gameprocess_akm.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/1920x1080/6game/gameprocess_backgroundDefault.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/1920x1080/6game/gameprocess_bayonet.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/1920x1080/6game/gameprocess_glock.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/1920x1080/6game/gameprocess_m4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/1920x1080/6game/gameprocess_machete.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/1920x1080/6game/gameprocess_usp.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/1920x1080/6game/inspect.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/1920x1080/6game/reload.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/1920x1080/buttons/iBack.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/1920x1080/buttons/iCredits.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/1920x1080/buttons/iExit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/1920x1080/buttons/iMultiplayer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/1920x1080/buttons/iSettings.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/1920x1080/buttons/iSingleplayer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/1920x1080/buttons/iStart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Images/1intro/backgroundd.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Images/2mainmenu/background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Images/3settings/background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Images/4credits/background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Images/5teamselect/background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Images/5teamselect/backgroundCT.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Images/5teamselect/backgroundT.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Images/6game/attack.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Images/6game/change.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Images/6game/exit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Images/6game/gameprocess_akm.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Images/6game/gameprocess_backgroundDefault.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Images/6game/gameprocess_bayonet.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Images/6game/gameprocess_glock.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Images/6game/gameprocess_m4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Images/6game/gameprocess_machete.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Images/6game/gameprocess_usp.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Images/6game/inspect.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Images/6game/reload.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Images/buttons/iBack.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Images/buttons/iCredits.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Images/buttons/iExit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Images/buttons/iMultiplayer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Images/buttons/iSettings.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Images/buttons/iSingleplayer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Images/buttons/iStart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Images/credits_background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Images/credits_iconExit.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Images/gameprocess_akm.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Images/gameprocess_backgroundDefault.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Images/gameprocess_bayonet.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Images/gameprocess_glock.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Images/gameprocess_iconChange.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Images/gameprocess_iconExit.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Images/gameprocess_iconInspect.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Images/gameprocess_iconReload.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Images/gameprocess_iconUse.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Images/gameprocess_m4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Images/gameprocess_machete.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Images/gameprocess_usp.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Images/iconSingleplayer.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Images/into.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Images/intro_background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Images/intro_background2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Images/main_background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Images/main_iconCredits.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Images/main_iconExit.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Images/teamselect_background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Images/teamselect_backgroundCT.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Images/teamselect_backgroundT.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Images/teamselect_iconExit.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Images/xxxxxxxxxxxxxxxxxx.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/res/background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/res/backgroundd.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/res/iExit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/res/iStart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/res/resolution_background.xcf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CS/Controller/Controller_Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS/Controller/Controller_Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CS/View/View_Intro.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS/Controller/Controller_Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CS/View/View_MainMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS/View/View_MainMenu.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CS/View/View_Startup.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS/View/View_Startup.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/Controller_Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Controller_Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS/thrash/View_Credits.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS/thrash/View_Credits.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS/thrash/View_Intro.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS/thrash/View_Intro.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS/thrash/View_MainOUTDATED.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS/thrash/View_MainOUTDATED.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/Controller_Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/View/View_MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/View_MainMenu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/View/View_Startup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/View_Startup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thrash/View_Credits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thrash/View_Credits.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/thrash/View_Intro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thrash/View_Intro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thrash/View_MainOUTDATED.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thrash/View_MainOUTDATED.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -150,17 +31,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="View_MainMenu.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="View_MainMenu.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/View/View_MainMenu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1683">
-              <caret line="175" column="40" selection-start-line="175" selection-start-column="40" selection-end-line="175" selection-end-column="40" />
+            <state relative-caret-position="635">
+              <caret line="181" column="19" selection-start-line="181" selection-start-column="19" selection-end-line="181" selection-end-column="19" />
               <folding>
                 <element signature="n#!!doc;n#controller#0;n#View_MainMenu#0" />
-                <element signature="e#4960#4999#0" />
-                <element signature="e#5131#5168#0" />
-                <element signature="e#5993#6029#0" />
-                <element signature="method#actionPerformed#0;class#View_MainMenu#0" />
+                <element signature="e#4525#4564#0" />
+                <element signature="e#4672#4709#0" />
+                <element signature="e#5422#5458#0" />
               </folding>
             </state>
           </provider>
@@ -170,30 +50,29 @@
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+              <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Controller_Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Controller/Controller_Main.java">
+      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Controller/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+            <state relative-caret-position="272">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#326#327#0" expanded="true" />
-                <element signature="e#365#366#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="View_Startup.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="View_Startup.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/View/View_Startup.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="64" column="51" lean-forward="true" selection-start-line="64" selection-start-column="51" selection-end-line="64" selection-end-column="51" />
+            <state relative-caret-position="774">
+              <caret line="90" selection-start-line="90" selection-end-line="90" />
               <folding>
                 <element signature="n#!!doc;n#controller#0;n#View_Startup#0" />
               </folding>
@@ -287,7 +166,7 @@
               <item name="data" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
               <item name="1920x1080" type="462c0819:PsiDirectoryNode" />
-              <item name="1intro" type="462c0819:PsiDirectoryNode" />
+              <item name="2mainmenu" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CS" type="b2602c69:ProjectViewProjectNode" />
@@ -409,12 +288,12 @@
       <workItem from="1572353904047" duration="4530000" />
       <workItem from="1572382357959" duration="107000" />
       <workItem from="1572468690644" duration="655000" />
-      <workItem from="1572469697472" duration="1749000" />
+      <workItem from="1572469697472" duration="3817000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17354000" />
+    <option name="totallyTimeSpent" value="19422000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
@@ -429,7 +308,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.11902232" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.11902232" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
@@ -459,7 +338,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="8" />
+      <option name="time" value="10" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -547,7 +426,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/Controller_Main.java">
+    <entry file="file://$PROJECT_DIR$/src/Controller/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
@@ -644,7 +523,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/Controller_Main.java">
+    <entry file="file://$PROJECT_DIR$/src/Controller/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
@@ -713,45 +592,43 @@
     <entry file="file://$PROJECT_DIR$/data/images/1920x1080/1intro/backgroundd.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/View/View_MainMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1683">
-          <caret line="175" column="40" selection-start-line="175" selection-start-column="40" selection-end-line="175" selection-end-column="40" />
-          <folding>
-            <element signature="n#!!doc;n#controller#0;n#View_MainMenu#0" />
-            <element signature="e#4960#4999#0" />
-            <element signature="e#5131#5168#0" />
-            <element signature="e#5993#6029#0" />
-            <element signature="method#actionPerformed#0;class#View_MainMenu#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+          <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/Controller_Main.java">
+    <entry file="file://$PROJECT_DIR$/src/Controller/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#326#327#0" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/View/View_Startup.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="64" column="51" lean-forward="true" selection-start-line="64" selection-start-column="51" selection-end-line="64" selection-end-column="51" />
+        <state relative-caret-position="774">
+          <caret line="90" selection-start-line="90" selection-end-line="90" />
           <folding>
             <element signature="n#!!doc;n#controller#0;n#View_Startup#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/View/View_MainMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="635">
+          <caret line="181" column="19" selection-start-line="181" selection-start-column="19" selection-end-line="181" selection-end-column="19" />
+          <folding>
+            <element signature="n#!!doc;n#controller#0;n#View_MainMenu#0" />
+            <element signature="e#4525#4564#0" />
+            <element signature="e#4672#4709#0" />
+            <element signature="e#5422#5458#0" />
           </folding>
         </state>
       </provider>

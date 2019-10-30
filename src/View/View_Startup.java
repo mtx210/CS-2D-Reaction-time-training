@@ -17,7 +17,7 @@ import java.awt.event.ActionListener;
 public class View_Startup extends JFrame implements ActionListener {
 
     //<editor-fold desc="Class fields">
-    private Controller_Main controller;
+    private Controller controller;
     private JLabel lBackground;
     private JButton bStart,bExit;
     private JComboBox cbResolutions;
@@ -25,7 +25,7 @@ public class View_Startup extends JFrame implements ActionListener {
     private String resolutions[] = {"1280x720 HD","1366x768 WXGA","1600x900 HD+","1920x1080 fullHD"};
     //</editor-fold>
 
-    public View_Startup(Controller_Main controller) {
+    public View_Startup(Controller controller) {
 
         //controller setup
         this.controller = controller;

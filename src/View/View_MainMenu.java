@@ -1,6 +1,6 @@
 package View;
 
-import Controller.Controller_Main;
+import Controller.Controller;
 
 import javax.swing.*;
 import java.awt.*;
@@ -13,7 +13,7 @@ public class View_MainMenu extends JFrame implements ActionListener {
 
     //<editor-fold desc="Class fields">
     //frame fields
-    private Controller_Main controller;
+    private Controller controller;
     private JPanel MainPanel;
     private CardLayout CardLayout;
 
@@ -47,20 +47,19 @@ public class View_MainMenu extends JFrame implements ActionListener {
     private ImageIcon iCreditsBackground,iCreditsExit;
     //</editor-fold>
 
-    public View_MainMenu(Controller_Main controller) {
+    public View_MainMenu(Controller controller) {
 
-        //controller setup
+        //setting controller
         this.controller = controller;
 
-        //frame setup
+        //setting frame
         this.setSize(1920,1080);
         this.setTitle("Cont Striek: ISIS Conflict");
         this.setIconImage(Toolkit.getDefaultToolkit().getImage("data/icon.jpg"));
-        this.setLayout(null);
         this.setDefaultCloseOperation(DISPOSE_ON_CLOSE);
 
-        //components setup
-        //<editor-fold desc="intro panel">
+        //setting components
+        //<editor-fold desc="Intro panel">
         pIntro = new JPanel();
         pIntro.setLayout(null);
 
@@ -70,11 +69,11 @@ public class View_MainMenu extends JFrame implements ActionListener {
         pIntro.add(lIntroBackground);
         //</editor-fold>
 
-        //<editor-fold desc="menu panel">
+        //<editor-fold desc="Menu panel">
         pMenu = new JPanel();
         pMenu.setLayout(null);
 
-        iMenuBackground = new ImageIcon("data/res/background.jpg");
+        iMenuBackground = new ImageIcon("data/images/1920x1080/2mainmenu/background.jpg");
         iMenuSingleplayer = new ImageIcon("data/1920x1080/buttons/iSingleplayer.png");
         iMenuMultiplayer = new ImageIcon("data/1920x1080/buttons/iMultiplayer.png");
         iMenuSettings = new ImageIcon("data/1920x1080/buttons/iSettings.png");
@@ -121,12 +120,12 @@ public class View_MainMenu extends JFrame implements ActionListener {
         pMenu.add(lMenuBackground);
         //</editor-fold>
 
-        //<editor-fold desc="teamselect panel">
+        //<editor-fold desc="Teamselect panel">
         pTeamSelect = new JPanel();
         pTeamSelect.setLayout(null);
         //</editor-fold>
 
-        //<editor-fold desc="settings panel">
+        //<editor-fold desc="Settings panel">
         pSettings = new JPanel();
         pSettings.setLayout(null);
 
@@ -145,7 +144,7 @@ public class View_MainMenu extends JFrame implements ActionListener {
         pSettings.add(lSettingsBackground);
         //</editor-fold>
 
-        //<editor-fold desc="credits panel">
+        //<editor-fold desc="Credits panel">
         pCredits = new JPanel();
         pCredits.setLayout(null);
 
@@ -176,13 +175,17 @@ public class View_MainMenu extends JFrame implements ActionListener {
         CardLayout.show(MainPanel,"intro");
         this.add(MainPanel);
 
+        this.setUndecorated(true);
         this.setVisible(true);
-        //.requestFocus();
     }
 
     @Override
     public void actionPerformed(ActionEvent e) {
         Object source = e.getSource();
+
+        //switch(source){
+
+        //}
 
         //Menu actions
             if(source == bMenuSingleplayer){

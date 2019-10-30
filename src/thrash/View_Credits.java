@@ -1,6 +1,6 @@
 package thrash;
 
-import Controller.Controller_Main;
+import Controller.Controller;
 
 import javax.swing.JFrame;
 import javax.swing.JLabel;
@@ -13,13 +13,13 @@ import java.awt.event.ActionListener;
 public class View_Credits extends JFrame implements ActionListener {
 
     //<editor-fold desc="Class fields">
-    private Controller_Main controller;
+    private Controller controller;
     private JLabel lBackground;
     private JButton bExit;
     private ImageIcon iBackground,iExit;
     //</editor-fold>
 
-    public View_Credits(Controller_Main controller) {
+    public View_Credits(Controller controller) {
 
         //controller setup
             this.controller = controller;

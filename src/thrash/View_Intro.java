@@ -10,12 +10,12 @@ import java.awt.Toolkit;
 public class View_Intro extends JFrame {
 
     //<editor-fold desc="Class fields">
-    private Controller_Main controller;
+    private Controller controller;
     private JLabel lBackground;
     private ImageIcon iBackground;
     //</editor-fold>
 
-    public View_Intro(Controller_Main controller) {
+    public View_Intro(Controller controller) {
 
         //controller setup
             this.controller = controller;

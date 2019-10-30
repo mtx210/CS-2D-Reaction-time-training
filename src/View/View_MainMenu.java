@@ -31,8 +31,8 @@ public class View_MainMenu extends JFrame implements ActionListener {
     //team selection panel
     private JPanel pTeamSelect;
     private JLabel lTeamselectBackground;
-    private JButton bTeamselectCT,bTeamselectT,bTeamselectExit;
-    private ImageIcon iTeamselectBackground,iTeamselectCT,iTeamselectT,iTeamselectExit;
+    private JButton bTeamselectCT,bTeamselectT, bTeamselectBack;
+    private ImageIcon iTeamselectBackground,iTeamselectCT,iTeamselectT, iTeamselectBack;
 
     //settings panel
     private JPanel pSettings;
@@ -64,6 +64,7 @@ public class View_MainMenu extends JFrame implements ActionListener {
         pIntro.setLayout(null);
 
         iIntroBackground = new ImageIcon("data/images/1920x1080/1intro/backgroundd.jpg");
+
         lIntroBackground = new JLabel(iIntroBackground);
         lIntroBackground.setBounds(0,0,1920,1080);
         pIntro.add(lIntroBackground);
@@ -74,11 +75,11 @@ public class View_MainMenu extends JFrame implements ActionListener {
         pMenu.setLayout(null);
 
         iMenuBackground = new ImageIcon("data/images/1920x1080/2mainmenu/background.jpg");
-        iMenuSingleplayer = new ImageIcon("data/1920x1080/buttons/iSingleplayer.png");
-        iMenuMultiplayer = new ImageIcon("data/1920x1080/buttons/iMultiplayer.png");
-        iMenuSettings = new ImageIcon("data/1920x1080/buttons/iSettings.png");
-        iMenuCredits = new ImageIcon("data/1920x1080/buttons/iCredits.png");
-        iMenuExit = new ImageIcon("data/1920x1080/buttons/iExit.png");
+        iMenuSingleplayer = new ImageIcon("data/images/1920x1080/buttons/iSingleplayer.png");
+        iMenuMultiplayer = new ImageIcon("data/images/1920x1080/buttons/iMultiplayer.png");
+        iMenuSettings = new ImageIcon("data/images/1920x1080/buttons/iSettings.png");
+        iMenuCredits = new ImageIcon("data/images/1920x1080/buttons/iCredits.png");
+        iMenuExit = new ImageIcon("data/images/1920x1080/buttons/iExit.png");
 
         bMenuSingleplayer = new JButton(iMenuSingleplayer);
         bMenuSingleplayer.setBounds(1620, 600, 200, 50);
@@ -123,14 +124,44 @@ public class View_MainMenu extends JFrame implements ActionListener {
         //<editor-fold desc="Teamselect panel">
         pTeamSelect = new JPanel();
         pTeamSelect.setLayout(null);
+
+        iTeamselectBackground = new ImageIcon("data/images/1920x1080/5teamselect/background.jpg");
+        iTeamselectCT = new ImageIcon("data/images/1920x1080/5teamselect/backgroundCT.jpg");
+        iTeamselectT = new ImageIcon("data/images/1920x1080/5teamselect/backgroundT.jpg");
+        iTeamselectBack = new ImageIcon("data/images/1920x1080/buttons/iBack.png");
+
+        bTeamselectCT = new JButton(iTeamselectCT);
+        bTeamselectCT.setBounds(110, 340, 800, 400);
+        bTeamselectCT.setOpaque(false);
+        bTeamselectCT.setContentAreaFilled(false);
+        bTeamselectCT.addActionListener(this);
+        pTeamSelect.add(bTeamselectCT);
+
+        bTeamselectT = new JButton(iTeamselectT);
+        bTeamselectT.setBounds(1010, 340, 800, 400);
+        bTeamselectT.setOpaque(false);
+        bTeamselectT.setContentAreaFilled(false);
+        bTeamselectT.addActionListener(this);
+        pTeamSelect.add(bTeamselectT);
+
+        bTeamselectBack = new JButton(iTeamselectBack);
+        bTeamselectBack.setBounds(1620, 1000, 200, 50);
+        bTeamselectBack.setOpaque(false);
+        bTeamselectBack.setContentAreaFilled(false);
+        bTeamselectBack.addActionListener(this);
+        pTeamSelect.add(bTeamselectBack);
+
+        lTeamselectBackground = new JLabel(iTeamselectBackground);
+        lTeamselectBackground.setBounds(0,0,1920,1080);
+        pTeamSelect.add(lTeamselectBackground);
         //</editor-fold>
 
         //<editor-fold desc="Settings panel">
         pSettings = new JPanel();
         pSettings.setLayout(null);
 
-        iSettingsBackground = new ImageIcon("data/1920x1080/3settings/background.jpg");
-        iSettingsExit = new ImageIcon("data/1920x1080/buttons/iBack.png");
+        iSettingsBackground = new ImageIcon("data/images/1920x1080/3settings/background.jpg");
+        iSettingsExit = new ImageIcon("data/images/1920x1080/buttons/iBack.png");
 
         bSettingsExit = new JButton(iSettingsExit);
         bSettingsExit.setBounds(1620, 1000, 200, 50);
@@ -148,8 +179,8 @@ public class View_MainMenu extends JFrame implements ActionListener {
         pCredits = new JPanel();
         pCredits.setLayout(null);
 
-        iCreditsBackground = new ImageIcon("data/1920x1080/4credits/background.jpg");
-        iCreditsExit = new ImageIcon("data/1920x1080/buttons/iBack.png");
+        iCreditsBackground = new ImageIcon("data/images/1920x1080/4credits/background.jpg");
+        iCreditsExit = new ImageIcon("data/images/1920x1080/buttons/iBack.png");
 
         bCreditsExit = new JButton(iCreditsExit);
         bCreditsExit.setBounds(1620, 1000, 200, 50);
@@ -172,7 +203,7 @@ public class View_MainMenu extends JFrame implements ActionListener {
         MainPanel.add(pTeamSelect,"teamselect");
         MainPanel.add(pSettings,"settings");
         MainPanel.add(pCredits,"credits");
-        CardLayout.show(MainPanel,"intro");
+        CardLayout.show(MainPanel,"menu");
         this.add(MainPanel);
 
         this.setUndecorated(true);
@@ -182,10 +213,6 @@ public class View_MainMenu extends JFrame implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
         Object source = e.getSource();
-
-        //switch(source){
-
-        //}
 
         //Menu actions
             if(source == bMenuSingleplayer){
@@ -205,7 +232,7 @@ public class View_MainMenu extends JFrame implements ActionListener {
                 //
             } else if(source == bTeamselectT){
                 //
-            } else if(source == bTeamselectExit){
+            } else if(source == bTeamselectBack){
                 CardLayout.show(MainPanel,"menu");
             }
         //Settings actions

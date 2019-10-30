@@ -5,7 +5,7 @@ import View.*;
 
 public class Controller {
 
-    MusicPlayer musicPlayer = new MusicPlayer();
+    private MusicPlayer musicPlayer = new MusicPlayer();
 
     public Controller(){
         new View_Startup(this);

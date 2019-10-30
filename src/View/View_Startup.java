@@ -27,17 +27,17 @@ public class View_Startup extends JFrame implements ActionListener {
 
     public View_Startup(Controller controller) {
 
-        //controller setup
+        //setting controller
         this.controller = controller;
 
-        //frame setup
+        //setting frame
         this.setSize(656,399);
         this.setTitle("Cont Striek: ISIS Conflict");
         this.setIconImage(Toolkit.getDefaultToolkit().getImage("data/icon.jpg"));
         this.setLayout(null);
         this.setDefaultCloseOperation(DISPOSE_ON_CLOSE);
 
-        //frame setup cd
+        //setting frame cd.
         GraphicsEnvironment ge = GraphicsEnvironment.getLocalGraphicsEnvironment();
         GraphicsDevice defaultScreen = ge.getDefaultScreenDevice();
         Rectangle rect = defaultScreen.getDefaultConfiguration().getBounds();
@@ -45,8 +45,11 @@ public class View_Startup extends JFrame implements ActionListener {
         int y=(int) rect.getMaxY();
         this.setLocation(x/2-328,y/2-199);
 
-        //components setup
+        //setting components
+        iBackground = new ImageIcon("data/images/startup/background.jpg");
         iStart = new ImageIcon("data/images/startup/iStart.png");
+        iExit = new ImageIcon("data/images/startup/iExit.png");
+
         bStart = new JButton(iStart);
         bStart.setBounds(490,240,150,50);
         bStart.setOpaque(false);
@@ -54,7 +57,6 @@ public class View_Startup extends JFrame implements ActionListener {
         bStart.addActionListener(this);
         this.add(bStart);
 
-        iExit = new ImageIcon("data/images/startup/iExit.png");
         bExit = new JButton(iExit);
         bExit.setBounds(490,300,150,50);
         bExit.setOpaque(false);
@@ -67,7 +69,6 @@ public class View_Startup extends JFrame implements ActionListener {
         cbResolutions.addActionListener(this);
         this.add(cbResolutions);
 
-        iBackground = new ImageIcon("data/images/startup/background.jpg");
         lBackground = new JLabel(iBackground);
         lBackground.setBounds(0,0,640,360);
         this.add(lBackground);
@@ -77,7 +78,6 @@ public class View_Startup extends JFrame implements ActionListener {
 
     @Override
     public void actionPerformed(ActionEvent e) {
-
         Object source = e.getSource();
 
         if(source == bStart){

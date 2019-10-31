@@ -9,7 +9,7 @@ import java.awt.event.ActionListener;
 
 public class View_MainMenu extends JFrame implements ActionListener {
 
-    //Components name tutorial: <lower case letter for component type> + <Uppercase component's panel> + <component's name and function>
+    //Components' name tutorial: <lower case letter for component type> + <Uppercase component's panel> + <component's name and function>
 
     //<editor-fold desc="Class fields">
     //frame fields
@@ -215,34 +215,34 @@ public class View_MainMenu extends JFrame implements ActionListener {
         Object source = e.getSource();
 
         //Menu actions
-            if(source == bMenuSingleplayer){
-                CardLayout.show(MainPanel,"teamselect");
-            } else if(source == bMenuMultiplayer){
-                //
-            } else if(source == bMenuSettings){
-                CardLayout.show(MainPanel,"settings");
-            } else if(source == bMenuCredits){
-                CardLayout.show(MainPanel,"credits");
-            } else if(source == bMenuExit){
-                this.dispose();
-                controller.terminate();
-            }
+        if(source == bMenuSingleplayer){
+            CardLayout.show(MainPanel,"teamselect");
+        } else if(source == bMenuMultiplayer){
+            //
+        } else if(source == bMenuSettings){
+            CardLayout.show(MainPanel,"settings");
+        } else if(source == bMenuCredits){
+            CardLayout.show(MainPanel,"credits");
+        } else if(source == bMenuExit){
+            this.dispose();
+            controller.terminate();
+        }
         //Teamselect actions
-            else if(source == bTeamselectCT){
-                controller.playMusic("CT");
-            } else if(source == bTeamselectT){
-                controller.playMusic("T");
-            } else if(source == bTeamselectBack){
-                controller.playMusic("main");
-                CardLayout.show(MainPanel,"menu");
-            }
+        else if(source == bTeamselectCT){
+            controller.playMusic("CT");
+        } else if(source == bTeamselectT){
+            controller.playMusic("T");
+        } else if(source == bTeamselectBack){
+            controller.playMusic("main");
+            CardLayout.show(MainPanel,"menu");
+        }
         //Settings actions
-            else if(source == bSettingsExit){
-                CardLayout.show(MainPanel,"menu");
-            }
+        else if(source == bSettingsExit){
+            CardLayout.show(MainPanel,"menu");
+        }
         //Credits actions
-            else if(source == bCreditsExit){
-                CardLayout.show(MainPanel,"menu");
-            }
+        else if(source == bCreditsExit){
+            CardLayout.show(MainPanel,"menu");
+        }
     }
 }

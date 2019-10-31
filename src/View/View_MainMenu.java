@@ -229,10 +229,11 @@ public class View_MainMenu extends JFrame implements ActionListener {
             }
         //Teamselect actions
             else if(source == bTeamselectCT){
-                //
+                controller.playMusic("CT");
             } else if(source == bTeamselectT){
-                //
+                controller.playMusic("T");
             } else if(source == bTeamselectBack){
+                controller.playMusic("main");
                 CardLayout.show(MainPanel,"menu");
             }
         //Settings actions

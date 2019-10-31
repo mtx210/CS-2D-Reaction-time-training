@@ -29,6 +29,7 @@ public class View_Startup extends JFrame implements ActionListener {
 
         //setting controller
         this.controller = controller;
+        controller.playMusic("main");
 
         //setting frame
         this.setSize(656,399);

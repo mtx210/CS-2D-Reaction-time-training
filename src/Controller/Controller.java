@@ -9,7 +9,6 @@ public class Controller {
 
     public Controller(){
         new View_Startup(this);
-        musicPlayer.playGameSound();
     }
 
     public void startMainMenu() {
@@ -18,5 +17,36 @@ public class Controller {
 
     public void terminate() {
         //code to close the program
+    }
+
+    public void playMusic(String theme){
+        switch(theme){
+            case "CT":
+                try{
+                    musicPlayer.stop();
+                } catch(NullPointerException e){}
+                musicPlayer.playCTtheme();
+                break;
+
+            case "T":
+                try{
+                    musicPlayer.stop();
+                } catch(NullPointerException e){}
+                musicPlayer.playTtheme();
+                break;
+
+            case "main":
+                try{
+                    musicPlayer.stop();
+                } catch(NullPointerException e){}
+                musicPlayer.playMain();
+                break;
+        }
+    }
+
+    public void stopMusic() {
+        try{
+            musicPlayer.stop();
+        } catch(NullPointerException e){}
     }
 }

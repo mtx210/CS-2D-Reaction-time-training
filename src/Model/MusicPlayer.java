@@ -7,10 +7,12 @@ import javax.sound.sampled.Clip;
 
 public class MusicPlayer {
 
-    public void playMainSound() {
+    private Clip clip;
+
+    public void playMain() {
         try {
             AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("data/sound/main.wav").getAbsoluteFile());
-            Clip clip = AudioSystem.getClip();
+            clip = AudioSystem.getClip();
             clip.open(audioInputStream);
             clip.start();
         }
@@ -20,10 +22,10 @@ public class MusicPlayer {
         }
     }
 
-    public void playGameSound() {
+    public void playCTtheme() {
         try {
-            AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("data/sound/game.wav").getAbsoluteFile());
-            Clip clip = AudioSystem.getClip();
+            AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("data/sound/theme_homeland_security.wav").getAbsoluteFile());
+            clip = AudioSystem.getClip();
             clip.open(audioInputStream);
             clip.start();
         }
@@ -31,5 +33,22 @@ public class MusicPlayer {
             System.out.println("Error with playing sound.");
             ex.printStackTrace();
         }
+    }
+
+    public void playTtheme() {
+        try {
+            AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("data/sound/theme_islamic_state.wav").getAbsoluteFile());
+            clip = AudioSystem.getClip();
+            clip.open(audioInputStream);
+            clip.start();
+        }
+        catch(Exception ex) {
+            System.out.println("Error with playing sound.");
+            ex.printStackTrace();
+        }
+    }
+
+    public void stop(){
+        clip.stop();
     }
 }

@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca064367-4f9a-4953-bb4c-3dc71ba4bd4a" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/data/sound/game.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/sound/game.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/sound/main.wav" beforeDir="false" afterPath="$PROJECT_DIR$/data/sound/main.wav" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/MusicPlayer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/View/View_MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/View_MainMenu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/View/View_Startup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/View_Startup.java" afterDir="false" />
     </list>
@@ -19,29 +23,62 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Controller/Controller.java">
+      <file leaf-file-name="View_Startup.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/View/View_Startup.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="19" column="35" lean-forward="true" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+            <state relative-caret-position="204">
+              <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
               <folding>
-                <element signature="e#326#327#0" expanded="true" />
-                <element signature="e#365#366#0" expanded="true" />
+                <element signature="n#!!doc;n#controller#0;n#View_Startup#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="View_MainMenu.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Controller/Controller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+              <folding>
+                <element signature="e#161#162#0" expanded="true" />
+                <element signature="e#199#200#0" expanded="true" />
+                <element signature="e#326#327#0" expanded="true" />
+                <element signature="e#365#366#0" expanded="true" />
+                <element signature="method#playMusic#0;class#Controller#0" />
+                <element signature="method#stopMusic#0;class#Controller#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="View_MainMenu.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/View/View_MainMenu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="140" column="31" lean-forward="true" selection-start-line="140" selection-start-column="31" selection-end-line="140" selection-end-column="31" />
+            <state relative-caret-position="430">
+              <caret line="235" column="45" selection-start-line="235" selection-start-column="45" selection-end-line="235" selection-end-column="45" />
               <folding>
+                <element signature="n#!!doc;n#controller#0;n#View_MainMenu#0" />
                 <element signature="e#2012#2046#0" />
                 <element signature="e#2381#2414#0" />
+                <element signature="e#4525#4564#0" />
+                <element signature="e#4672#4709#0" />
                 <element signature="e#5422#5458#0" />
-                <element signature="method#actionPerformed#0;class#View_MainMenu#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MusicPlayer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Model/MusicPlayer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="13" column="103" selection-start-line="13" selection-start-column="103" selection-end-line="13" selection-end-column="103" />
+              <folding>
+                <element signature="method#playCTtheme#0;class#MusicPlayer#0" />
+                <element signature="method#playTtheme#0;class#MusicPlayer#0" />
+                <element signature="e#1146#1147#0" expanded="true" />
+                <element signature="e#1177#1178#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -62,7 +99,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Model/MusicPlayer.java" />
         <option value="$PROJECT_DIR$/src/View/View_Game.java" />
         <option value="$PROJECT_DIR$/src/View/View_Settings.java" />
         <option value="$PROJECT_DIR$/src/View/View_Teamselect.java" />
@@ -73,9 +109,10 @@
         <option value="$PROJECT_DIR$/src/thrash/View_Intro.java" />
         <option value="$PROJECT_DIR$/src/Controller/Controller_Main.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/Controller/Controller.java" />
-        <option value="$PROJECT_DIR$/src/View/View_Startup.java" />
+        <option value="$PROJECT_DIR$/src/Model/MusicPlayer.java" />
         <option value="$PROJECT_DIR$/src/View/View_MainMenu.java" />
+        <option value="$PROJECT_DIR$/src/View/View_Startup.java" />
+        <option value="$PROJECT_DIR$/src/Controller/Controller.java" />
       </list>
     </option>
   </component>
@@ -230,12 +267,12 @@
       <workItem from="1572353904047" duration="4530000" />
       <workItem from="1572382357959" duration="107000" />
       <workItem from="1572468690644" duration="655000" />
-      <workItem from="1572469697472" duration="5313000" />
+      <workItem from="1572469697472" duration="8722000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20918000" />
+    <option name="totallyTimeSpent" value="24327000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -250,7 +287,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.11902232" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.22104144" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
@@ -290,7 +327,6 @@
           <caret line="16" column="68" selection-start-line="16" selection-start-column="68" selection-end-line="16" selection-end-column="68" />
           <folding>
             <element signature="n#!!doc;n#controller#0;n#View_Startup#0" />
-            <element signature="method#View_Startup#0;class#View_Startup#0" />
           </folding>
         </state>
       </provider>
@@ -312,7 +348,6 @@
           <caret line="16" column="68" selection-start-line="16" selection-start-column="68" selection-end-line="16" selection-end-column="68" />
           <folding>
             <element signature="n#!!doc;n#controller#0;n#View_Startup#0" />
-            <element signature="method#View_Startup#0;class#View_Startup#0" />
           </folding>
         </state>
       </provider>
@@ -334,7 +369,6 @@
           <caret line="16" column="68" selection-start-line="16" selection-start-column="68" selection-end-line="16" selection-end-column="68" />
           <folding>
             <element signature="n#!!doc;n#controller#0;n#View_Startup#0" />
-            <element signature="method#View_Startup#0;class#View_Startup#0" />
           </folding>
         </state>
       </provider>
@@ -367,7 +401,6 @@
           <caret line="34" column="56" selection-start-line="34" selection-start-column="56" selection-end-line="34" selection-end-column="56" />
           <folding>
             <element signature="n#!!doc;n#controller#0;n#View_Startup#0" />
-            <element signature="method#View_Startup#0;class#View_Startup#0" />
           </folding>
         </state>
       </provider>
@@ -458,7 +491,6 @@
           <caret line="91" column="1" selection-start-line="91" selection-start-column="1" selection-end-line="91" selection-end-column="1" />
           <folding>
             <element signature="n#!!doc;n#controller#0;n#View_Startup#0" />
-            <element signature="method#View_Startup#0;class#View_Startup#0" />
           </folding>
         </state>
       </provider>
@@ -529,13 +561,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/MusicPlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/images/1920x1080/1intro/backgroundd.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -546,37 +571,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/View/View_Startup.java">
+    <entry file="file://$PROJECT_DIR$/src/Model/MusicPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="79" column="48" selection-start-line="79" selection-start-column="48" selection-end-line="79" selection-end-column="48" />
+        <state relative-caret-position="170">
+          <caret line="13" column="103" selection-start-line="13" selection-start-column="103" selection-end-line="13" selection-end-column="103" />
           <folding>
-            <element signature="n#!!doc;n#controller#0;n#View_Startup#0" />
-            <element signature="method#View_Startup#0;class#View_Startup#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="19" column="35" lean-forward="true" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
-          <folding>
-            <element signature="e#326#327#0" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
+            <element signature="method#playCTtheme#0;class#MusicPlayer#0" />
+            <element signature="method#playTtheme#0;class#MusicPlayer#0" />
+            <element signature="e#1146#1147#0" expanded="true" />
+            <element signature="e#1177#1178#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/View/View_MainMenu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="140" column="31" lean-forward="true" selection-start-line="140" selection-start-column="31" selection-end-line="140" selection-end-column="31" />
+        <state relative-caret-position="430">
+          <caret line="235" column="45" selection-start-line="235" selection-start-column="45" selection-end-line="235" selection-end-column="45" />
           <folding>
+            <element signature="n#!!doc;n#controller#0;n#View_MainMenu#0" />
             <element signature="e#2012#2046#0" />
             <element signature="e#2381#2414#0" />
+            <element signature="e#4525#4564#0" />
+            <element signature="e#4672#4709#0" />
             <element signature="e#5422#5458#0" />
-            <element signature="method#actionPerformed#0;class#View_MainMenu#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/View/View_Startup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+          <folding>
+            <element signature="n#!!doc;n#controller#0;n#View_Startup#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+          <folding>
+            <element signature="e#161#162#0" expanded="true" />
+            <element signature="e#199#200#0" expanded="true" />
+            <element signature="e#326#327#0" expanded="true" />
+            <element signature="e#365#366#0" expanded="true" />
+            <element signature="method#playMusic#0;class#Controller#0" />
+            <element signature="method#stopMusic#0;class#Controller#0" />
           </folding>
         </state>
       </provider>
